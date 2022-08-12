@@ -1,0 +1,76 @@
+.container{
+    max-width: 500px;
+    background-color: rgb(178, 173, 152);
+    margin:20px 10px 20px 200px;
+    border-radius: 2ch;
+    border: 2px solid rgb(178, 173, 152);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+   
+    box-shadow: 0 0 20px rgba(243, 248, 105, 0.8);
+}
+body{
+    background-image: url("pi.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: rgb(215, 215, 248);
+
+}
+h1{
+    text-align: left;
+    margin: 50px 0px 0px 350px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(62, 44, 21);
+  
+}
+.output{
+    background-color: rgb(206, 205, 202);
+    padding: 24px 10px;
+    margin: 10px;
+    border-radius: 2ch;
+    color: rgb(11, 12, 16);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.buttons{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button{
+
+    background-color: black;
+    padding: 20px 5px;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px 5px;
+    text-align: center;
+
+}
+#equal{
+    background-color: rgb(64, 64, 86);
+}
+.button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(85, 84, 84);
+    text-align: center;
+  }
